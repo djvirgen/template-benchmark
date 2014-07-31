@@ -11,12 +11,12 @@
 - [Fest](https://github.com/mailru/fest) v0.5.4
 - [Handlebars.js](https://github.com/wycats/handlebars.js/) v1.0.9 ([website](http://handlebarsjs.com/))
 - [Hogan.js](https://github.com/twitter/hogan.js) v2.0.0 ([website](http://twitter.github.com/hogan.js/))
-- [Jade](https://github.com/visionmedia/jade) v0.28.1 ([website](http://jade-lang.com/))
+- [Jade](https://github.com/visionmedia/jade) v1.5.0 ([website](http://jade-lang.com/))
 - [Swig](https://github.com/paularmstrong/swig) v0.13.5
 - [Underscore](https://github.com/documentcloud/underscore) v1.4.4 ([website](http://underscorejs.org/))
 - [Gaikan](https://github.com/Deathspike/gaikan) v2.0.0
 
-## Results
+## Results (Outdated)
 
 ### Linux Ubuntu 12.04, NodeJS 0.10.26 (100.000x)
 
@@ -53,6 +53,26 @@
 	EJS                  (14917ms) - 595% slower
 	CoffeeKup            (15319ms) - 614% slower
 	Jade                 (34000ms) - 1484% slower
+
+## Results (Updated)
+
+### Mac OS X
+
+        ECT                  ( 1168ms) - fastest
+        Gaikan               ( 1215ms) - 4% slower
+        Fest                 ( 1516ms) - 30% slower
+        Dust                 ( 1585ms) - 36% slower
+        doT                  ( 1875ms) - 61% slower
+        Jade without `with`  ( 2540ms) - 117% slower
+        Hogan.js             ( 2629ms) - 125% slower
+        EJS without `with`   ( 2850ms) - 144% slower
+        Swig                 ( 3320ms) - 184% slower
+        Underscore           ( 3448ms) - 195% slower
+        Eco                  ( 4579ms) - 292% slower
+        Handlebars.js        ( 4677ms) - 300% slower
+        EJS                  ( 5192ms) - 345% slower
+        Jade                 ( 5240ms) - 349% slower
+        CoffeeKup            ( 6091ms) - 421% slower
 	
 ## Usage
 
