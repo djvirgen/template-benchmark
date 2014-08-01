@@ -12,6 +12,7 @@ var hogan = require('./hogan/hogan.js');
 var dust = require('./dust/dust.js');
 var fest = require('./fest/fest.js');
 var dot = require('./dot/dot.js');
+var htmling = require('./htmling/htmling.js');
 var handlebars = require('./handlebars/handlebars.js');
 var coffeekup = require('./coffeekup/coffeekup.js');
 var underscore = require('./underscore/underscore.js');
@@ -58,6 +59,7 @@ var samples = [
 	{ name : 'Jade', sample : jade },
 	{ name : 'CoffeeKup', sample : coffeekup },
 	{ name : 'Jade without `with`', sample : jadeWithoutWith },
+	{ name : 'HTMLing', sample : htmling },
 	{ name : 'Handlebars.js', sample : handlebars },
 	{ name : 'EJS', sample : ejs },
 	{ name : 'Eco', sample : eco },
